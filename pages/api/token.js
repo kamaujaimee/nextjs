@@ -1,7 +1,11 @@
 // pages/api/token.js
 let items = {
-    "ClientReference": "ngscreener01",
-    "SearchEngineVersion": "5.76.220.0"
+    "token_type": "Bearer",
+    "expires_in": 1800,
+    "expires_on": 1723590237,
+    "not_before": 1723597473,
+    "resource": "JwtTokenIssuer",
+    "access_token": "eyJ0eXAiOiJKV1QiLCJh"
 };
 export default function handler(req, res) {
     if (req.method === 'GET') {
