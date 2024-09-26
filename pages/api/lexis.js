@@ -97,6 +97,11 @@ let items = {
                                     "ID": 0,
                                     "Type": "DOB",
                                     "Value": "1984-05-XX"
+                                },
+                                {
+                                    "ID": 0,
+                                    "Type": "Position",
+                                    "Value": "Charged with conspiracy and fraud - November 2021."
                                 }
                             ],
                             "Addresses": [
