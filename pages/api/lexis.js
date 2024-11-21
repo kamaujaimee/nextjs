@@ -512,7 +512,7 @@ export default function handler(req, res) {
     } else if (req.method === 'POST') {
         // Handle POST request: add a new item
         
-        res.status(200).json(items);
+        res.status(200).json(items.Records[0].Watchlist.Matches[0].AdverseMedias[0].SubCategories[0]);
     } else {
         res.setHeader('Allow', ['GET', 'POST']);
         res.status(405).end(`Method ${req.method} Not Allowed`);
